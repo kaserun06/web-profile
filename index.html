@@ -5,8 +5,108 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nanda Web</title>
-    <link rel="shortcut icon" href="image/logo.png">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" href="https://storage.googleapis.com/qwiklabs-gcp-02-92a653056eef.appspot.com/logo.png">
+    <style>
+        body {
+	font-family: sans-serif;
+	margin: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav li {
+	float: left;
+}
+
+nav a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	background-color: #ddd;
+	color: #333;
+}
+
+aside {
+	float: left;
+	width: 30%;
+	padding: 20px;
+}
+
+img {
+	max-width: 100%;
+}
+
+section {
+	float: right;
+	width: 70%;
+	padding: 20px;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: stretch;
+	margin: 0;
+	padding: 0;
+}
+
+.sidebar {
+	flex: 1;
+	min-width: 250px;
+	max-width: 350px;
+	margin-right: 20px;
+}
+
+.sidebar img {
+	max-width: 100%;
+}
+
+.content {
+	flex: 2;
+	min-width: 350px;
+	margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+	.container {
+		flex-direction: column;
+	}
+	.sidebar {
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+}
+    </style>
 </head>
 <body>
     <header>
@@ -23,7 +123,7 @@
     
     <main class="container">
 		<section class="sidebar">
-			<img src="image/foto.jpg" alt="Foto Profil">
+			<img src="https://storage.googleapis.com/qwiklabs-gcp-02-92a653056eef.appspot.com/foto.jpg" alt="Foto Profil">
 			<h2>Nanda Nikola</h2>
 			<p>Perkenalkan saya Nanda Nikola, seorang mahasiswa yang cukup bahagia dapat kuliah dikampus terbaik se galaxy bima sakti. Dengan segala fasilitas yang Mewah(Mepet Sawah) dan Metan(Mepet Hutan), hal ini yang membuat saya sangat bahagia berada di kampus terindah ini(UNUD)</p>
 		</section>
